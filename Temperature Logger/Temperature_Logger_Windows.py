@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 
-import serial
+from serial import Serial, SerialException
 import time
 from datetime import datetime, timedelta
 import pandas as pd
 
 # Define the serial port and baud rate (change this to match your setup)
-serial_port = '/dev/ttyACM0'  # Change this to '/dev/ttyACM0' or your specific serial port
+serial_port = 'COM10'  # Change this to your specific serial port
 baud_rate = 115200  # Change this to match your printer's baud rate
 
 # Function to send a G-code command and receive the response
@@ -74,7 +74,9 @@ output_file_name = datetime.now().strftime("%Y-%m-%d_%H-%M-%S_temperature.xlsx")
 
 try:
     # Open the serial connection
-    printer = serial.Serial(serial_port, baud_rate, timeout=2)
+    # Open the serial connection
+    printer = Serial(serial_port, baud_rate, timeout=2)
+
 
     # Ask the user for the desired hotend temperature, recording time, and hotend number
     input_str = input("Enter desired hotend temperature, recording time, and hotend number (e.g., '200 100 1'): ")
@@ -89,7 +91,7 @@ try:
     # Close the serial connection
     printer.close()
 
-except serial.SerialException:
+except SerialException:
     print(f"Failed to open serial port {serial_port}. Make sure the printer is connected.")
 except KeyboardInterrupt:
     print("Recording stopped by user.")
