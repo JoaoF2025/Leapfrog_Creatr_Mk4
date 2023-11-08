@@ -23,9 +23,7 @@ of the new system but also the feasibility of low-melting-point metal alloys
 for 3D FFF printing, since these alloys have different properties compared to
 polymers, such as flowability, wettability, and melting temperature.
 
-![20231018_182745](https://github.com/JoaoF2025/Leapfrog_Creatr_Mk4/assets/101104869/0c2d08dd-71bf-4ed4-b2c1-b9325f8bda3e)
-
-![Printer1](https://github.com/JoaoF2025/Leapfrog_Creatr_Mk4/assets/101104869/5dfb409e-accf-4a8a-8c54-731232e46a92)
+Some images of the final prototype can be found in the [Pictures Section](#pictures).
 
 ## Description
 
@@ -34,6 +32,18 @@ This repository contains the firmware designed for the "Leapfro Creatr MK4" 3D p
 The firmware used is based on Marlin version `2.0.7.2`, and it includes all the printer's settings. It's important to note that this firmware should not be used on another printer, as it has been highly customized for this specific project and may cause damage to other printers.
 
 The Python script, on the other hand, was created to record the temperatures of each of the hotends, so that the data obtained can be used for validating the numerical models used during the development of the printing system. Additionally, various records made throughout the project's development can be found in this repository.
+
+## Pictures
+
+<p align="center">
+<img src="https://github.com/JoaoF2025/Leapfrog_Creatr_Mk4/assets/101104869/6da4cedb-1e28-49b0-854b-557bec5868ab" width=35% height=35%>
+<img src="https://github.com/JoaoF2025/Leapfrog_Creatr_Mk4/assets/101104869/b0a850cb-d490-4812-b202-cf3edf6f7d10" width=35% height=35%>
+</p>
+
+<p align="center">
+<img align="center" src="https://github.com/JoaoF2025/Leapfrog_Creatr_Mk4/assets/101104869/5dfb409e-accf-4a8a-8c54-731232e46a92" width=35% height=35%>
+</p>
+
 ## Authors
 
 This project was developed at the Department of Mechanical Engineering of the "Universidade de Aveiro" in order to obtain a Master's degree in Mechanical Engineering.
