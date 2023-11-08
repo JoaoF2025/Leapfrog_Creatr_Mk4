@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 
-import serial
 import time
 from datetime import datetime, timedelta
+import serial
 import pandas as pd
 
 # Define the serial port and baud rate (change this to match your setup)
-serial_port = '/dev/ttyACM0'  # Change this to '/dev/ttyACM0' or your specific serial port
+serial_port = '/dev/ttyACM0'  # Change this to your specific serial port
 baud_rate = 115200  # Change this to match your printer's baud rate
 
 # Function to send a G-code command and receive the response

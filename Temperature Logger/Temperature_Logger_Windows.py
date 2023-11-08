@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 
-from serial import Serial, SerialException
 import time
 from datetime import datetime, timedelta
+from serial import Serial, SerialException
 import pandas as pd
 
 # Define the serial port and baud rate (change this to match your setup)
