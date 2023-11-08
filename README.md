@@ -23,10 +23,9 @@ of the new system but also the feasibility of low-melting-point metal alloys
 for 3D FFF printing, since these alloys have different properties compared to
 polymers, such as flowability, wettability, and melting temperature.
 
-![Alt text](20231018_182745.jpg)
+![20231018_182745](https://github.com/JoaoF2025/Leapfrog_Creatr_Mk4/assets/101104869/0c2d08dd-71bf-4ed4-b2c1-b9325f8bda3e)
 
-![Alt text](Printer1.jpg)
-
+![Printer1](https://github.com/JoaoF2025/Leapfrog_Creatr_Mk4/assets/101104869/5dfb409e-accf-4a8a-8c54-731232e46a92)
 
 ## Description
 
