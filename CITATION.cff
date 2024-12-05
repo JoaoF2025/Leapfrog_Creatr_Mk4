@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Ferreira
+    given-names: João
+    orcid: https://orcid.org/0009-0006-1104-8984
+title: "Leapfrog_Creatr_Mk4"
+version: 1
+date-released: 2023-12-05
